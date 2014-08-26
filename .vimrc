@@ -56,9 +56,6 @@ endif
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
 
-NeoBundle ryuzee/neosnippet_chef_recipe_snippet
-let g:neosnippet#snippets_directory='~/.vim/bundle/neosnippet_chef_recipe_snippet/autoload/neosnippet/snippets'
-
 " Required:
 filetype plugin indent on
 NeoBundleCheck
