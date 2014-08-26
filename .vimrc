@@ -22,6 +22,13 @@ NeoBundle "Shougo/neosnippet-snippets"
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 smap <C-k>     <Plug>(neosnippet_expand_or_jump)
 
+NeoBundle 'ryuzee/neosnippet_chef_recipe_snippet'
+NeoBundle 'glidenote/serverspec-snippets'
+let g:neosnippet#snippets_directory = [
+    \'~/.vim/bundle/neosnippet_chef_recipe_snippet/autoload/neosnippet/snippets',
+    \'~/.vim/bundle/serverspec-snippets',
+    \]
+
 " if_luaが有効ならneocompleteを使う
 NeoBundle has('lua') ? 'Shougo/neocomplete' : 'Shougo/neocomplcache'
 
